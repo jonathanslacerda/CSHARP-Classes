@@ -6,12 +6,17 @@ namespace Program {
 
         static void Main(string[] args) {
 
-            Console.WriteLine("Hello World");
-            CalculadoraIMC();
-            Conversor();
-            CalcularDesconto();
-            JurosCompostos();
-            DistanciaEntreDoisPontos();
+            // Console.WriteLine("Hello World");
+            // CalculadoraIMC();
+            // Conversor();
+            // CalcularDesconto();
+            // JurosCompostos();
+            // DistanciaEntreDoisPontos();
+            // COVID19();
+            // Pi();
+            // Poligonos();
+            // Delta();
+            VolumeEsfera();
 
         }
 
@@ -97,6 +102,75 @@ namespace Program {
 
             Console.WriteLine("Velocidade em Km/h é: " + velocidadeKmH);
 
+
+        }
+
+
+        static void COVID19() {
+
+            int populacaoInicial = 1000;
+            int potencialInfeccao = 4;
+            // Tempo decorrido em dias
+            int tempoDecorrido = 100;
+
+            double pessoasInfectadas = Math.Pow((populacaoInicial * populacaoInicial), (tempoDecorrido/7));
+            Console.WriteLine(pessoasInfectadas);
+        }
+
+
+        static void Pi() {
+
+            double raio = 1;
+
+            double pi = 3.1415926535897931;
+
+            double comprimentoCirculo = 2 * pi * raio;
+
+            double areaCirculo = pi * Math.Pow(raio, 2);
+
+            Console.WriteLine("O comprimento do círculo é: " + comprimentoCirculo);
+            Console.WriteLine("A área do círuclo é: " + areaCirculo);
+        }
+
+        static void Poligonos() {
+
+            int numeroLados = 6;
+
+            var somaAngulos = (numeroLados - 2) * 180;
+
+            var anguloLados = somaAngulos / numeroLados;
+
+            Console.WriteLine("A soma dos angulos internos é de: " 
+            + somaAngulos + 
+            "° e o polígono é composto por " 
+            + numeroLados + 
+            " lados de " 
+            + anguloLados + 
+            "° cada um.");
+
+        }
+
+        static void Delta() {
+
+            double a = 5;
+            double b = 5;
+            double c = 1;
+
+            var baskara = Math.Pow(b, 2) - 4 * a * c;
+
+            Console.WriteLine("O delta é: " + baskara);
+
+        }
+
+        static void VolumeEsfera() {
+
+            int diametro = 6;
+            double pi = 3.1415926535897931; 
+            double raio = diametro / 2;
+
+            var volume = (4 / 3) * Math.Pow(raio, 3) * pi;
+
+            Console.WriteLine("O volume da esfera é de " + volume);
 
         }
     }
