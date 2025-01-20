@@ -6,16 +6,16 @@ namespace Program {
 
         static void Main(string[] args) {
 
-            // Console.WriteLine("Hello World");
-            // CalculadoraIMC();
-            // Conversor();
-            // CalcularDesconto();
-            // JurosCompostos();
-            // DistanciaEntreDoisPontos();
-            // COVID19();
-            // Pi();
-            // Poligonos();
-            // Delta();
+            Console.WriteLine("Hello World");
+            CalculadoraIMC();
+            Conversor();
+            CalcularDesconto();
+            JurosCompostos();
+            DistanciaEntreDoisPontos();
+            COVID19();
+            Pi();
+            Poligonos();
+            Delta();
             VolumeEsfera();
 
         }
