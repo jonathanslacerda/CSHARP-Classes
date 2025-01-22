@@ -1,0 +1,15 @@
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.AssemblyInfoInputs.cache
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.AssemblyInfo.cs
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.sourcelink.json
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\bin\Debug\net9.0\Condicionais.exe
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\bin\Debug\net9.0\Condicionais.deps.json
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\bin\Debug\net9.0\Condicionais.runtimeconfig.json
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\bin\Debug\net9.0\Condicionais.dll
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\bin\Debug\net9.0\Condicionais.pdb
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.dll
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\refint\Condicionais.dll
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.pdb
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\Condicionais.genruntimeconfig.cache
+C:\Users\jonat\OneDrive\Documentos\Repositórios\CSHARP-Classes\Módulo01\02 - Condicionais\Condicionais\obj\Debug\net9.0\ref\Condicionais.dll
