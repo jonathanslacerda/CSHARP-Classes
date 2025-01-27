@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.VisualBasic;
 
 namespace Condicionais {
 
@@ -11,6 +12,10 @@ namespace Condicionais {
             Domino(2, 2);
             DominoPt2(0);
             Peneira(180);
+            ImpostoRenda(false, false, 1000000);
+            RollerCoaster(19, false, 180, false);
+            NotasConceito(9);
+            Caracteres("A", 1);
         }
 
         static void PedraPapelTesoura(string jogada1, string jogada2) {
@@ -91,6 +96,73 @@ namespace Condicionais {
 
         }
 
+        static void ImpostoRenda(bool aposentado, bool portadorDoenca, double rendimento) {
+
+            if (aposentado == true || portadorDoenca == true) {
+                Console.WriteLine("ISENTA");
+            } else if (rendimento <= 2855970) {
+                Console.WriteLine("VAZA LEÃO! JÁ TÁ DIFÍCIL SEM VOCÊ");
+            } else {
+                Console.WriteLine("PEGA LEÃO");
+            }
+
+
+        }
+
+
+        static void RollerCoaster(int idade, bool doencaCardiaca, int altura, bool estudante) {
+
+
+            if (idade < 12 || idade > 65 || doencaCardiaca == true || altura < 150) {
+                Console.WriteLine("ACESSO NEGADO");
+            } else if (idade > 12 || idade < 18 || estudante == true) {
+                Console.WriteLine("VALOR DA ENTRADA: R$ 10,00");
+            } else {
+                Console.WriteLine("VALOR DA ENTRADA: R$ 20,00");
+            }
+
+
+        }
+
+
+        static void NotasConceito (double nota) {
+            
+
+            if (nota >= 9) {
+                Console.WriteLine("A");
+            } else if (nota >= 8) {
+                Console.WriteLine("B");
+            } else if (nota >= 6) {
+                Console.WriteLine("C");
+            } else if (nota >= 4) {
+                Console.WriteLine("D");
+            } else {
+                Console.WriteLine("E");
+            }
+
+
+        }
+
+
+        static void Caracteres (string caracter, int numero) {
+
+
+            if (caracter == "A" || caracter == "E" || caracter == "I" || caracter == "O" || caracter == "U") {
+                Console.WriteLine("Vogal Maiúscula");
+            } else if (caracter == "a" || caracter == "e" || caracter == "i" || caracter == "o" || caracter == "u") {
+                Console.WriteLine("Vogal Minúscula");
+            } else if (numero == 0 || numero == 1 || numero == 2 || numero == 3 || numero == 4 || numero == 5 || numero == 6 || numero == 7 || numero == 8 || numero == 9) {
+                Console.WriteLine("Numeral");
+            } else {
+                Console.WriteLine("Consoante");
+            }
+
+
+
+
+        }
+
     }
     
 }
+ 
